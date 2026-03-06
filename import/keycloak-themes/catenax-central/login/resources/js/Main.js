@@ -280,7 +280,9 @@ window.onload = () => {
         icon.rel = 'icon';
         document.head.appendChild(icon);
     }
-   icon.href = 'resources/img/CX-Favicon.svg'
+    icon.type = 'image/x-icon';
+    icon.href = '../login/resources/images/favicon.ico';
+
     const CX_PROVIDERS = JSON.parse(
         escapeNames(
             [...document.getElementById('providers').childNodes].map(n => n.data).join('')
