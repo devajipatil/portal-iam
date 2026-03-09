@@ -30,6 +30,7 @@ on:
       - 'docker/Dockerfile.import'
 
     branches:
+      - 'feature/construct-x'
       - 'main'
   workflow_dispatch:
     inputs:
